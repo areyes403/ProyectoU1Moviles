@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "DADM_A_U1AppEscolar"
