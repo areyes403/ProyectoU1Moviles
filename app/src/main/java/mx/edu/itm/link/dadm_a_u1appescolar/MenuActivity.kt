@@ -51,7 +51,7 @@ class MenuActivity : AppCompatActivity() {
             invocarActivity(ScheduleActivity::class.java)
         }
         btnExamen.setOnClickListener {
-            invocarActivity(MostrarMaterias::class.java)
+            invocarActivity(MostrarMateriasActivity::class.java)
         }
 
     }

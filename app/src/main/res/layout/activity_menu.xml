@@ -39,8 +39,8 @@
 
     <Button
         android:id="@+id/btnExamen"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="Realizar examen" />
 
 </LinearLayout>

@@ -21,25 +21,22 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:id="@+id/tvRowKardexMateria"
+                android:id="@+id/tvRowMostrarMateriaNombre"
                 android:text="Materia"
                 android:textColor="#000"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
-            <TextView
-                android:id="@+id/tvRowKardexCalificacion"
-                android:text="100"
+
+
+            <Button
+                android:id="@+id/btnRowMostrarMateriaCalificar"
+                android:text="Calificar"
                 android:textColor="#000"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
-            <TextView
-                android:id="@+id/tvRowKardexSemestre"
-                android:text="Semestre 0"
-                android:textColor="#000"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+
 
         </TableRow>
 
