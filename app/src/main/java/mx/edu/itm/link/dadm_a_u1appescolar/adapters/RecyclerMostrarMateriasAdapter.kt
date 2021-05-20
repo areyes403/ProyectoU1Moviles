@@ -17,19 +17,7 @@ class RecyclerMostrarMateriasAdapter(val context: Context, val res:Int, val cali
     inner class MostrarMateriasVH(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
         fun bind(calif: JSONObject) {
-            val tvSemestre = itemView.findViewById<TextView>(R.id.tvRowKardexSemestre)
-            val tvMateria = itemView.findViewById<TextView>(R.id.tvRowMostrarMateria)
-            val tvCalificacion = itemView.findViewById<TextView>(R.id.tvRowKardexCalificacion)
 
-            tvSemestre.text = "Semestre ${calif.getInt("semestre")}"
-            tvMateria.text = calif.getString("materia")
-
-            val calificacion = calif.getInt("calificacion")
-            tvCalificacion.text = "$calificacion"
-            tvCalificacion.setTextColor(
-                if(calificacion>69) Color.BLUE
-                else Color.RED
-            )
         }
 
     }

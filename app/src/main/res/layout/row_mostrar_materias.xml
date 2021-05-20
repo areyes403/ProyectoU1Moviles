@@ -21,20 +21,25 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:id="@+id/tvRowMostrarMateria"
-                android:layout_width="wrap_content"
-                android:layout_height="33dp"
+                android:id="@+id/tvRowKardexMateria"
                 android:text="Materia"
-                android:textColor="#000" />
-
-
-            <Button
-                android:id="@+id/btnCalificar"
+                android:textColor="#000"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="#FFEB3B"
-                android:text="Calificar"
-                android:textColor="#000" />
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvRowKardexCalificacion"
+                android:text="100"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvRowKardexSemestre"
+                android:text="Semestre 0"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
 
         </TableRow>
 

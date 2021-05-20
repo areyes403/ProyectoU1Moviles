@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DADM_A_U1AppEscolar">
-        <activity android:name=".MostrarMaterias"></activity>
+        <activity android:name=".MostrarMateriasActivity"></activity>
+        <activity android:name=".MostrarMaterias" />
         <activity android:name=".MainActivity2" />
         <activity android:name=".ExamenActivity" />
         <activity android:name=".ScheduleActivity" />
