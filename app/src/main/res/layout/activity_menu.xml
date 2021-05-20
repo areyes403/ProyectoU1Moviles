@@ -7,11 +7,13 @@
     android:gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/coco2"
     tools:context=".MenuActivity">
 
     <Button
         android:id="@+id/btnKardex"
         android:text="Kardex"
+        android:backgroundTint="#99E1750A"
         android:layout_margin="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
@@ -19,6 +21,7 @@
     <Button
         android:id="@+id/btnHorario"
         android:text="Horario"
+        android:backgroundTint="#C3975311"
         android:layout_margin="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
@@ -26,6 +29,7 @@
     <Button
         android:id="@+id/btnReticula"
         android:text="Retícula"
+        android:backgroundTint="#99E1750A"
         android:layout_margin="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
@@ -33,14 +37,9 @@
     <Button
         android:id="@+id/btnPersonales"
         android:text="Datos personales"
+        android:backgroundTint="#C3975311"
         android:layout_margin="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-
-    <Button
-        android:id="@+id/btnExamen"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Realizar examen" />
 
 </LinearLayout>
