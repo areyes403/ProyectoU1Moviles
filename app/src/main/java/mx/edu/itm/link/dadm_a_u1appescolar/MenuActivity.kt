@@ -23,7 +23,7 @@ class MenuActivity : AppCompatActivity() {
         btnKardex = findViewById(R.id.btnKardex)
         btnHorario = findViewById(R.id.btnHorario)
         btnReticula = findViewById(R.id.btnReticula)
-        btnPersonales = findViewById(R.id.btnPersonales)
+       // btnPersonales = findViewById(R.id.btnPersonales)
         btnExamen=findViewById(R.id.btnExamen)
 
         stringBD = intent.getStringExtra("bd")!!

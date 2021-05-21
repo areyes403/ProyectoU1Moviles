@@ -35,8 +35,8 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/btnPersonales"
-        android:text="Datos personales"
+        android:id="@+id/btnExamen"
+        android:text="Examen"
         android:backgroundTint="#C3975311"
         android:layout_margin="10dp"
         android:layout_width="wrap_content"
