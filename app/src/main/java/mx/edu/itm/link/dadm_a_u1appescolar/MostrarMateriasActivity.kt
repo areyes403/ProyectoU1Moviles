@@ -4,6 +4,7 @@ import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -16,6 +17,7 @@ import org.json.JSONObject
 class MostrarMateriasActivity : AppCompatActivity() {
 
     lateinit var recyclerMostrarMaterias : RecyclerView
+    lateinit var btnRealizarExamen: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -76,5 +78,14 @@ class MostrarMateriasActivity : AppCompatActivity() {
         intent.putExtra("bd", bd.toString())
         intent.putExtra("alumno", jsonAlumno.toString())
         setResult(Activity.RESULT_OK,intent)
+
+        //invocando al activity examen
+        btnRealizarExamen=findViewById(R.id.btnRealizarExamen)
+        btnRealizarExamen.setOnClickListener {
+            val intent = Intent(this,ExamenActivity::class.java)
+            startActivity(intent)
+        }
+
     }
+
 }
