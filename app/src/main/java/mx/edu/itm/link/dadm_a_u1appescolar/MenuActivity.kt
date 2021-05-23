@@ -10,7 +10,6 @@ class MenuActivity : AppCompatActivity() {
     lateinit var btnKardex : Button
     lateinit var btnHorario : Button
     lateinit var btnReticula : Button
-    lateinit var btnPersonales : Button
     lateinit var btnExamen : Button
 
     lateinit var stringBD : String

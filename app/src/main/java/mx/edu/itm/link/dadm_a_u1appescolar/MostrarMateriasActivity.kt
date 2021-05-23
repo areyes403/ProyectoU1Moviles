@@ -23,6 +23,8 @@ class MostrarMateriasActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mostrar_materias)
 
+
+        //Se obtiene la base de datos
         var stringBD = intent.getStringExtra("bd")
         if(stringBD == null) {
             stringBD = resources.getString(R.string.jsonAlumnos)
@@ -40,7 +42,7 @@ class MostrarMateriasActivity : AppCompatActivity() {
         var jsonAlumnoMaterias = JSONArray()
         if( ! jsonAlumno.has("kardex")) {
             val admin = AdminBD()
-            jsonAlumnoMaterias = admin.generaCalificaciones(stringBD, strSemestre)
+            jsonAlumnoMaterias = admin.calificarExamen(stringBD, strSemestre)
 
             if(jsonAlumnoMaterias.length() > 0) {
                 // Colocamos el resultado en la UI
